@@ -1,0 +1,16 @@
+C:\Users\lewis\source\repos\Registro2\Registro2\bin\Debug\DataBase\PersonaDB.mdf
+C:\Users\lewis\source\repos\Registro2\Registro2\bin\Debug\DataBase\PersonaDB_log.ldf
+C:\Users\lewis\source\repos\Registro2\Registro2\bin\Debug\Registro2.exe.config
+C:\Users\lewis\source\repos\Registro2\Registro2\bin\Debug\Registro2.exe
+C:\Users\lewis\source\repos\Registro2\Registro2\bin\Debug\Registro2.pdb
+C:\Users\lewis\source\repos\Registro2\Registro2\bin\Debug\EntityFramework.dll
+C:\Users\lewis\source\repos\Registro2\Registro2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lewis\source\repos\Registro2\Registro2\bin\Debug\EntityFramework.xml
+C:\Users\lewis\source\repos\Registro2\Registro2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lewis\source\repos\Registro2\Registro2\obj\Debug\Registro2.csprojResolveAssemblyReference.cache
+C:\Users\lewis\source\repos\Registro2\Registro2\obj\Debug\Registro2.Form1.resources
+C:\Users\lewis\source\repos\Registro2\Registro2\obj\Debug\Registro2.Properties.Resources.resources
+C:\Users\lewis\source\repos\Registro2\Registro2\obj\Debug\Registro2.csproj.GenerateResource.Cache
+C:\Users\lewis\source\repos\Registro2\Registro2\obj\Debug\Registro2.csproj.CoreCompileInputs.cache
+C:\Users\lewis\source\repos\Registro2\Registro2\obj\Debug\Registro2.exe
+C:\Users\lewis\source\repos\Registro2\Registro2\obj\Debug\Registro2.pdb

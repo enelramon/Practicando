@@ -1,0 +1,6 @@
+c:\users\lewis\source\repos\holamundo\holamundo\bin\Release\holamundo.exe.config
+c:\users\lewis\source\repos\holamundo\holamundo\bin\Release\holamundo.exe
+c:\users\lewis\source\repos\holamundo\holamundo\bin\Release\holamundo.pdb
+c:\users\lewis\source\repos\holamundo\holamundo\obj\Release\holamundo.csproj.CoreCompileInputs.cache
+c:\users\lewis\source\repos\holamundo\holamundo\obj\Release\holamundo.exe
+c:\users\lewis\source\repos\holamundo\holamundo\obj\Release\holamundo.pdb

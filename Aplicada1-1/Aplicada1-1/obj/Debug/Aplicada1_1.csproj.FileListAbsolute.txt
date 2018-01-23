@@ -1,0 +1,15 @@
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\bin\Debug\DataBase\EstudiantesDB.mdf
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\bin\Debug\DataBase\EstudiantesDB_log.ldf
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\bin\Debug\Aplicada1-1.exe.config
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\bin\Debug\Aplicada1-1.exe
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\bin\Debug\Aplicada1-1.pdb
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\bin\Debug\EntityFramework.dll
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\bin\Debug\EntityFramework.xml
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\obj\Debug\Aplicada1_1.csprojResolveAssemblyReference.cache
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\obj\Debug\Aplicada1_1.csproj.CoreCompileInputs.cache
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\obj\Debug\Aplicada1-1.exe
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\obj\Debug\Aplicada1-1.pdb
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\obj\Debug\Aplicada1_1.csproj.GenerateResource.Cache
+C:\Users\lewis\source\repos\Aplicada1-1\Aplicada1-1\obj\Debug\Aplicada1_1.Registros.MainEstudiantes.resources

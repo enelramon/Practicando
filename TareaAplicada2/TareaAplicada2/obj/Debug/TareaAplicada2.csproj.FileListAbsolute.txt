@@ -1,0 +1,16 @@
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\bin\Debug\DataBase\EstudiantesDB.mdf
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\bin\Debug\DataBase\EstudiantesDB_log.ldf
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\bin\Debug\TareaAplicada2.exe.config
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\bin\Debug\TareaAplicada2.exe
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\bin\Debug\TareaAplicada2.pdb
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\bin\Debug\EntityFramework.dll
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\bin\Debug\EntityFramework.xml
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\obj\Debug\TareaAplicada2.csprojResolveAssemblyReference.cache
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\obj\Debug\TareaAplicada2.Properties.Resources.resources
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\obj\Debug\TareaAplicada2.csproj.GenerateResource.Cache
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\obj\Debug\TareaAplicada2.csproj.CoreCompileInputs.cache
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\obj\Debug\TareaAplicada2.exe
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\obj\Debug\TareaAplicada2.pdb
+C:\Users\lewis\source\repos\TareaAplicada2\TareaAplicada2\obj\Debug\TareaAplicada2.FormMain.resources

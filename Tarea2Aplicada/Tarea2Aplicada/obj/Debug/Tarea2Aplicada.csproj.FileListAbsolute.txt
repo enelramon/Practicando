@@ -1,0 +1,9 @@
+c:\users\lewis\source\repos\Tarea2Aplicada\Tarea2Aplicada\bin\Debug\Tarea2Aplicada.exe.config
+c:\users\lewis\source\repos\Tarea2Aplicada\Tarea2Aplicada\bin\Debug\Tarea2Aplicada.exe
+c:\users\lewis\source\repos\Tarea2Aplicada\Tarea2Aplicada\bin\Debug\Tarea2Aplicada.pdb
+c:\users\lewis\source\repos\Tarea2Aplicada\Tarea2Aplicada\obj\Debug\Tarea2Aplicada.csprojResolveAssemblyReference.cache
+c:\users\lewis\source\repos\Tarea2Aplicada\Tarea2Aplicada\obj\Debug\Tarea2Aplicada.Properties.Resources.resources
+c:\users\lewis\source\repos\Tarea2Aplicada\Tarea2Aplicada\obj\Debug\Tarea2Aplicada.csproj.GenerateResource.Cache
+c:\users\lewis\source\repos\Tarea2Aplicada\Tarea2Aplicada\obj\Debug\Tarea2Aplicada.csproj.CoreCompileInputs.cache
+c:\users\lewis\source\repos\Tarea2Aplicada\Tarea2Aplicada\obj\Debug\Tarea2Aplicada.exe
+c:\users\lewis\source\repos\Tarea2Aplicada\Tarea2Aplicada\obj\Debug\Tarea2Aplicada.pdb
