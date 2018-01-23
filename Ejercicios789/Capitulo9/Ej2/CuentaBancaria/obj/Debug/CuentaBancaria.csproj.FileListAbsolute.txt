@@ -1,0 +1,8 @@
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\CuentaBancaria\CuentaBancaria\bin\Debug\CuentaBancaria.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\CuentaBancaria\CuentaBancaria\bin\Debug\CuentaBancaria.pdb
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\CuentaBancaria\CuentaBancaria\obj\Debug\CuentaBancaria.csprojResolveAssemblyReference.cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\CuentaBancaria\CuentaBancaria\obj\Debug\CuentaBancaria.Form1.resources
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\CuentaBancaria\CuentaBancaria\obj\Debug\CuentaBancaria.Properties.Resources.resources
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\CuentaBancaria\CuentaBancaria\obj\Debug\CuentaBancaria.csproj.GenerateResource.Cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\CuentaBancaria\CuentaBancaria\obj\Debug\CuentaBancaria.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\CuentaBancaria\CuentaBancaria\obj\Debug\CuentaBancaria.pdb

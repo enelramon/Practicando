@@ -1,0 +1,9 @@
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo7\Ej3\Ej3\bin\Debug\Ej3.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo7\Ej3\Ej3\bin\Debug\Ej3.pdb
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo7\Ej3\Ej3\obj\Debug\Ej3.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo7\Ej3\Ej3\obj\Debug\Ej3.pdb
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej3\Ej3\bin\Debug\Ej3.exe
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej3\Ej3\bin\Debug\Ej3.pdb
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej3\Ej3\obj\Debug\Ej3.csproj.CoreCompileInputs.cache
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej3\Ej3\obj\Debug\Ej3.exe
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej3\Ej3\obj\Debug\Ej3.pdb

@@ -1,0 +1,11 @@
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo7\Ej1\Ej1\obj\Debug\Ej1.csprojResolveAssemblyReference.cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo7\Ej1\Ej1\bin\Debug\Ej1.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo7\Ej1\Ej1\bin\Debug\Ej1.pdb
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo7\Ej1\Ej1\obj\Debug\Ej1.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo7\Ej1\Ej1\obj\Debug\Ej1.pdb
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej1\Ej1\bin\Debug\Ej1.exe
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej1\Ej1\bin\Debug\Ej1.pdb
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej1\Ej1\obj\Debug\Ej1.csprojResolveAssemblyReference.cache
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej1\Ej1\obj\Debug\Ej1.csproj.CoreCompileInputs.cache
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej1\Ej1\obj\Debug\Ej1.exe
+C:\Users\lewis\Desktop\Nueva carpeta (6)\Capitulo7\Ej1\Ej1\obj\Debug\Ej1.pdb

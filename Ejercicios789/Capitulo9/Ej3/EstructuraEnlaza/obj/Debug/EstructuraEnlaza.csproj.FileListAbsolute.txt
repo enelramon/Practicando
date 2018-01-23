@@ -1,0 +1,17 @@
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.csprojResolveAssemblyReference.cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.Form1.resources
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.Properties.Resources.resources
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.csproj.GenerateResource.Cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\bin\Debug\EstructuraEnlaza.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\bin\Debug\EstructuraEnlaza.pdb
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.pdb
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\bin\Debug\EstructuraEnlaza.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\bin\Debug\EstructuraEnlaza.pdb
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.csprojResolveAssemblyReference.cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.Form1.resources
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.Properties.Resources.resources
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.csproj.GenerateResource.Cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.csproj.CoreCompileInputs.cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas\Semestre 7\Aplicada I\Repositorios\Capitulo9\EstructuraEnlaza\EstructuraEnlaza\obj\Debug\EstructuraEnlaza.pdb

@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\packages",
     "\\prueba2",
-    "\\prueba2\\DataBase"
+    "\\prueba2\\Entidad"
   ],
+  "SelectedNode": "\\prueba2\\Entidad\\Persona.cs",
   "PreviewInSolutionExplorer": false
 }

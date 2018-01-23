@@ -1,0 +1,8 @@
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EnumNeumaticos\EnumNeumaticos\obj\Debug\EnumNeumaticos.csprojResolveAssemblyReference.cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EnumNeumaticos\EnumNeumaticos\obj\Debug\EnumNeumaticos.Form1.resources
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EnumNeumaticos\EnumNeumaticos\obj\Debug\EnumNeumaticos.Properties.Resources.resources
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EnumNeumaticos\EnumNeumaticos\obj\Debug\EnumNeumaticos.csproj.GenerateResource.Cache
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EnumNeumaticos\EnumNeumaticos\bin\Debug\EnumNeumaticos.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EnumNeumaticos\EnumNeumaticos\bin\Debug\EnumNeumaticos.pdb
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EnumNeumaticos\EnumNeumaticos\obj\Debug\EnumNeumaticos.exe
+C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Capitulo9\EnumNeumaticos\EnumNeumaticos\obj\Debug\EnumNeumaticos.pdb
