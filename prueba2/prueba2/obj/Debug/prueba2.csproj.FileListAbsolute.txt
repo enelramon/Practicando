@@ -1,5 +1,3 @@
-C:\Users\lewis\source\repos\prueba2\prueba2\bin\Debug\DataBase\Prueba2.mdf
-C:\Users\lewis\source\repos\prueba2\prueba2\bin\Debug\DataBase\Prueba2_log.ldf
 C:\Users\lewis\source\repos\prueba2\prueba2\bin\Debug\prueba2.exe.config
 C:\Users\lewis\source\repos\prueba2\prueba2\bin\Debug\prueba2.exe
 C:\Users\lewis\source\repos\prueba2\prueba2\bin\Debug\prueba2.pdb
