@@ -21,8 +21,7 @@ namespace Articulo
        
         private void Form1_Load(object sender, EventArgs e)
         {
-            CotizacionForm form2 = new CotizacionForm();
-            form2.Show();
+            
         }
 
         private void crearToolStripMenuItem_Click(object sender, EventArgs e)
