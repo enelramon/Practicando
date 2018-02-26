@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Articulo.Entidades
 {
-    class Articulos
+   public class Articulos
     {
         [Key]
         public int ArticuloId { get; set; }

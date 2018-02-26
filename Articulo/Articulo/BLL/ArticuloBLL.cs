@@ -9,7 +9,7 @@ using System.Data.Entity;
 
 namespace Articulo.BLL
 {
-    class ArticuloBLL
+   public class ArticuloBLL
     {
         public static bool Guardar(Articulos articulos)
         {

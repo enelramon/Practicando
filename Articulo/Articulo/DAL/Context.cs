@@ -17,6 +17,8 @@ namespace Articulo.DAL
         }
 
         public DbSet<Articulos> articulo { get; set; }
+        public DbSet<Cotizaciones> cotizacion { get; set; }
+        public DbSet<Cotizaciones_detalles> cotizacion_detalles { get; set; }
 
     }
 }
