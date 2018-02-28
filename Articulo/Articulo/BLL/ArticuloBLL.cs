@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Articulo.Entidades;
 using Articulo.DAL;
 using System.Data.Entity;
+using System.Linq.Expressions;
 
 namespace Articulo.BLL
 {
@@ -88,6 +89,26 @@ namespace Articulo.BLL
 
             }
             return estado;
+        }
+
+        public static List<Articulos> Consulta(Expression<Func<Articulos, bool>> filter)
+        {
+            List<Articulos> lista = null;
+
+            Articulos articulos = new Articulos();
+            try
+            {
+                Context context = new Context();
+                lista = context.articulo.Where(filter).ToList();
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+            return lista;
+
         }
     }
 }

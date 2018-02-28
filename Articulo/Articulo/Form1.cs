@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Articulo.Registro;
+using Articulo.Reportes;
 
 namespace Articulo
 {
@@ -33,7 +34,21 @@ namespace Articulo
 
         private void crearToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+           CotizacionesForm form2 = new CotizacionesForm();
+            form2.Show();
+        }
 
+        private void articuloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultaArticulosForm form3 = new ConsultaArticulosForm();
+            form3.Show();
+
+        }
+
+        private void articulosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ReporteArticulo form4 = new ReporteArticulo();
+            form4.Show();
         }
     }
 }

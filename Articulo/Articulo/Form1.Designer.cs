@@ -33,6 +33,10 @@
             this.crearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cotizacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.articuloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.articulosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,7 +44,9 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.articulosToolStripMenuItem,
-            this.cotizacionToolStripMenuItem});
+            this.cotizacionToolStripMenuItem,
+            this.consultaToolStripMenuItem,
+            this.reporteToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(461, 24);
@@ -58,7 +64,7 @@
             // crearToolStripMenuItem
             // 
             this.crearToolStripMenuItem.Name = "crearToolStripMenuItem";
-            this.crearToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.crearToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.crearToolStripMenuItem.Text = "Crear";
             this.crearToolStripMenuItem.Click += new System.EventHandler(this.crearToolStripMenuItem_Click);
             // 
@@ -73,9 +79,39 @@
             // crearToolStripMenuItem1
             // 
             this.crearToolStripMenuItem1.Name = "crearToolStripMenuItem1";
-            this.crearToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.crearToolStripMenuItem1.Size = new System.Drawing.Size(102, 22);
             this.crearToolStripMenuItem1.Text = "Crear";
             this.crearToolStripMenuItem1.Click += new System.EventHandler(this.crearToolStripMenuItem1_Click);
+            // 
+            // consultaToolStripMenuItem
+            // 
+            this.consultaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.articuloToolStripMenuItem});
+            this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
+            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.consultaToolStripMenuItem.Text = "Consulta";
+            // 
+            // articuloToolStripMenuItem
+            // 
+            this.articuloToolStripMenuItem.Name = "articuloToolStripMenuItem";
+            this.articuloToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.articuloToolStripMenuItem.Text = "Articulo";
+            this.articuloToolStripMenuItem.Click += new System.EventHandler(this.articuloToolStripMenuItem_Click);
+            // 
+            // reporteToolStripMenuItem
+            // 
+            this.reporteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.articulosToolStripMenuItem1});
+            this.reporteToolStripMenuItem.Name = "reporteToolStripMenuItem";
+            this.reporteToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.reporteToolStripMenuItem.Text = "Reporte";
+            // 
+            // articulosToolStripMenuItem1
+            // 
+            this.articulosToolStripMenuItem1.Name = "articulosToolStripMenuItem1";
+            this.articulosToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.articulosToolStripMenuItem1.Text = "Articulos";
+            this.articulosToolStripMenuItem1.Click += new System.EventHandler(this.articulosToolStripMenuItem1_Click);
             // 
             // Form1
             // 
@@ -100,6 +136,10 @@
         private System.Windows.Forms.ToolStripMenuItem crearToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cotizacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem crearToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem consultaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem articuloToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem articulosToolStripMenuItem1;
     }
 }
 

@@ -14,25 +14,28 @@ namespace Articulo.Entidades
         public int CotizacionesId {get; set;}
         public int ArticuloId {get; set;}
         public int Cantidad  {get; set;}
-        public int Precio {get; set;}
+        public float Precio {get; set;}
+        public float Total { get; set; }
 
-    public Cotizaciones_detalles()
+        public Cotizaciones_detalles()
         {
             this.IdCotizaciones_detalles = 0;
             this.CotizacionesId = 0;
             this.ArticuloId = 0;
             this.Cantidad = 0;
             this.Precio = 0;
+            this.Total = 0;
 
         }
 
-        public Cotizaciones_detalles(int idCotizaciones_Detalles, int cotizacionId, int articuloid, int cantidad, int precio)
+        public Cotizaciones_detalles(int idCotizaciones_Detalles, int cotizacionId, int articuloid, int cantidad, float precio, float total)
         {
             this.IdCotizaciones_detalles = idCotizaciones_Detalles;
             this.CotizacionesId = cotizacionId;
             this.ArticuloId = articuloid;
             this.Cantidad = cantidad;
             this.Precio = precio;
+            this.Total = total;
         }
     }
 }
