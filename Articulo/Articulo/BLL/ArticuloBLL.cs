@@ -105,6 +105,7 @@ namespace Articulo.BLL
             }
             catch (Exception)
             {
+                d
                 throw;
             }
 
