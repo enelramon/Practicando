@@ -22,7 +22,7 @@ namespace ExamenDetalles.BLL
                 db.SaveChanges();
                 int id = cliente.IdClientes;
                 foreach (Telefono_Detalles telefono_detalle in cliente.Telefonos_Detalles)
-                {
+                { 
                    
                     db.Detalles.Add(telefono_detalle);
                     db.SaveChanges();
