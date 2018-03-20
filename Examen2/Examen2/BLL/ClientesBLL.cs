@@ -18,18 +18,20 @@ namespace Examen2.BLL
             {
                 Context db = new Context();
                 db.cliente.Add(cliente);
-                db.SaveChanges();
+             
+                
+
                 int id = cliente.IdClientes;
                 foreach (Telefono_detalles telefono_detalle in cliente.Telefonos_Detalles)
                 {
-                   
+                    telefono_detalle.Clientes_IdClientes = cliente.IdClientes;
                     
                     db.telefono.Add(telefono_detalle);
-                    db.SaveChanges();
+                  
                 }
 
-               
-            
+                db.SaveChanges();
+                
                 flag = true;
             }
             catch (Exception)
@@ -38,6 +40,47 @@ namespace Examen2.BLL
             }
 
             return flag;
+        }
+        public static Clientes Buscar(int Id)
+        {
+           Clientes cliente = new Clientes();
+            try
+            {
+                Context context = new Context();
+                cliente = context.cliente.Find(Id);
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+            return cliente;
+
+        }
+
+        public static bool Eliminar(int Id)
+        {
+           Clientes clientes = null;
+            bool estado = false;
+            try
+            {
+                Context context = new Context();
+                clientes = context.cliente.Find(Id);
+                //context.telefono.RemoveRange(context.telefono.Where(x => x.IdCliente == clientes.IdClientes));
+                context.cliente.Remove(clientes);
+                context.SaveChanges();
+
+                estado = true;
+
+            }
+            catch (Exception)
+            {
+                throw;
+
+
+            }
+            return estado;
         }
     }
 }

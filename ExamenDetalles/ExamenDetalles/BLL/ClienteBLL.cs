@@ -19,10 +19,10 @@ namespace ExamenDetalles.BLL
             {
                 Context db = new Context();
                 db.cliente.Add(cliente);
-                db.SaveChanges();
-                int id = cliente.IdClientes;
+             
+              
                 foreach (Telefono_Detalles telefono_detalle in cliente.Telefonos_Detalles)
-                { 
+                {
                    
                     db.Detalles.Add(telefono_detalle);
                     db.SaveChanges();

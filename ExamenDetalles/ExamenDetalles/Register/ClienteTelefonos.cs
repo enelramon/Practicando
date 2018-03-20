@@ -58,7 +58,8 @@ namespace ExamenDetalles.Register
             Clientes clientes = new Clientes();
             clientes.Nombre = NombretextBox.Text;
             clientes.Fecha = FechadateTimePicker.Value;
-            for (int i = 0; i < NumerosdataGridView.RowCount - 1; i++)
+            int rows = NumerosdataGridView.RowCount - 1;
+            for (int i = 0; i < rows; i++)
             {
                 Telefono_Detalles telefono_Detalles = new Telefono_Detalles();
                 telefono_Detalles.Tipo_telefono = NumerosdataGridView.Rows[i].Cells[0].Value.ToString();

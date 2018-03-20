@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.IdnumericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.IdnumericUpDownBuscar = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.FechadateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,16 +43,19 @@
             this.ColumnTipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Guardarbutton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.IdnumericUpDown)).BeginInit();
+            this.buttonBuscar = new System.Windows.Forms.Button();
+            this.buttonNuevo = new System.Windows.Forms.Button();
+            this.buttonEliminar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.IdnumericUpDownBuscar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TelefonodataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // IdnumericUpDown
+            // IdnumericUpDownBuscar
             // 
-            this.IdnumericUpDown.Location = new System.Drawing.Point(47, 30);
-            this.IdnumericUpDown.Name = "IdnumericUpDown";
-            this.IdnumericUpDown.Size = new System.Drawing.Size(91, 20);
-            this.IdnumericUpDown.TabIndex = 0;
+            this.IdnumericUpDownBuscar.Location = new System.Drawing.Point(35, 30);
+            this.IdnumericUpDownBuscar.Name = "IdnumericUpDownBuscar";
+            this.IdnumericUpDownBuscar.Size = new System.Drawing.Size(91, 20);
+            this.IdnumericUpDownBuscar.TabIndex = 0;
             // 
             // label1
             // 
@@ -148,9 +151,9 @@
             this.TelefonodataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnTipo,
             this.ColumnTelefono});
-            this.TelefonodataGridView.Location = new System.Drawing.Point(127, 210);
+            this.TelefonodataGridView.Location = new System.Drawing.Point(148, 236);
             this.TelefonodataGridView.Name = "TelefonodataGridView";
-            this.TelefonodataGridView.Size = new System.Drawing.Size(244, 147);
+            this.TelefonodataGridView.Size = new System.Drawing.Size(244, 139);
             this.TelefonodataGridView.TabIndex = 11;
             // 
             // ColumnTipo
@@ -165,19 +168,52 @@
             // 
             // Guardarbutton
             // 
-            this.Guardarbutton.Location = new System.Drawing.Point(419, 333);
+            this.Guardarbutton.Location = new System.Drawing.Point(419, 332);
             this.Guardarbutton.Name = "Guardarbutton";
-            this.Guardarbutton.Size = new System.Drawing.Size(75, 23);
+            this.Guardarbutton.Size = new System.Drawing.Size(75, 41);
             this.Guardarbutton.TabIndex = 12;
             this.Guardarbutton.Text = "Guardar";
             this.Guardarbutton.UseVisualStyleBackColor = true;
             this.Guardarbutton.Click += new System.EventHandler(this.Guardarbutton_Click);
             // 
+            // buttonBuscar
+            // 
+            this.buttonBuscar.Location = new System.Drawing.Point(141, 22);
+            this.buttonBuscar.Name = "buttonBuscar";
+            this.buttonBuscar.Size = new System.Drawing.Size(75, 37);
+            this.buttonBuscar.TabIndex = 13;
+            this.buttonBuscar.Text = "Buscar";
+            this.buttonBuscar.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
+            // 
+            // buttonNuevo
+            // 
+            this.buttonNuevo.Location = new System.Drawing.Point(419, 284);
+            this.buttonNuevo.Name = "buttonNuevo";
+            this.buttonNuevo.Size = new System.Drawing.Size(75, 41);
+            this.buttonNuevo.TabIndex = 14;
+            this.buttonNuevo.Text = "Nuevo";
+            this.buttonNuevo.UseVisualStyleBackColor = true;
+            this.buttonNuevo.Click += new System.EventHandler(this.buttonNuevo_Click);
+            // 
+            // buttonEliminar
+            // 
+            this.buttonEliminar.Location = new System.Drawing.Point(419, 236);
+            this.buttonEliminar.Name = "buttonEliminar";
+            this.buttonEliminar.Size = new System.Drawing.Size(75, 41);
+            this.buttonEliminar.TabIndex = 15;
+            this.buttonEliminar.Text = "Eliminar";
+            this.buttonEliminar.UseVisualStyleBackColor = true;
+            this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
+            // 
             // ClientesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 402);
+            this.ClientSize = new System.Drawing.Size(518, 415);
+            this.Controls.Add(this.buttonEliminar);
+            this.Controls.Add(this.buttonNuevo);
+            this.Controls.Add(this.buttonBuscar);
             this.Controls.Add(this.Guardarbutton);
             this.Controls.Add(this.TelefonodataGridView);
             this.Controls.Add(this.Addbutton);
@@ -190,10 +226,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.FechadateTimePicker);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.IdnumericUpDown);
+            this.Controls.Add(this.IdnumericUpDownBuscar);
             this.Name = "ClientesForm";
             this.Text = "ClientesForm";
-            ((System.ComponentModel.ISupportInitialize)(this.IdnumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IdnumericUpDownBuscar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TelefonodataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -202,7 +238,7 @@
 
         #endregion
 
-        private System.Windows.Forms.NumericUpDown IdnumericUpDown;
+        private System.Windows.Forms.NumericUpDown IdnumericUpDownBuscar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker FechadateTimePicker;
         private System.Windows.Forms.Label label2;
@@ -217,5 +253,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTipo;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefono;
         private System.Windows.Forms.Button Guardarbutton;
+        private System.Windows.Forms.Button buttonBuscar;
+        private System.Windows.Forms.Button buttonNuevo;
+        private System.Windows.Forms.Button buttonEliminar;
     }
 }
