@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BA6A3876-DA4F-4A78-A6A3-273B6DFFF324}</ProjectGuid>
+    <ProjectGuid>{8EDD0F19-A423-4BDB-8E2E-0C43DFABC982}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Examen2</RootNamespace>
-    <AssemblyName>Examen2</AssemblyName>
+    <RootNamespace>benifu</RootNamespace>
+    <AssemblyName>benifu</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,16 +35,8 @@
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>..\..\..\..\Desktop\Tarea5-Registro-Inscripciones-Jose-Manuel-master\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,10 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\ClientesBLL.cs" />
-    <Compile Include="DAL\Context.cs" />
-    <Compile Include="Entidades\Clientes.cs" />
-    <Compile Include="Entidades\Telefono_detalles.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,12 +56,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registro\ClientesForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Registro\ClientesForm.Designer.cs">
-      <DependentUpon>ClientesForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,10 +68,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Registro\ClientesForm.resx">
-      <DependentUpon>ClientesForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -103,6 +81,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
