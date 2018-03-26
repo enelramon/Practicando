@@ -12,7 +12,7 @@ namespace Practicando.BLL
     {
         public static bool Guardar(Personas personas)
         {
-            bool Estado = false;
+            bool Estado = false;  
 
             try
             {
