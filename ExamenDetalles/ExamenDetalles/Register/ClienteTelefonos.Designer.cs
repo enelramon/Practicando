@@ -58,6 +58,7 @@
             this.NumerosdataGridView.Name = "NumerosdataGridView";
             this.NumerosdataGridView.Size = new System.Drawing.Size(446, 150);
             this.NumerosdataGridView.TabIndex = 0;
+            this.NumerosdataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.NumerosdataGridView_CellContentClick);
             // 
             // ColumnTipo
             // 

@@ -69,5 +69,10 @@ namespace ExamenDetalles.Register
 
             return clientes;
         }
+
+        private void NumerosdataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
