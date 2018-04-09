@@ -93,6 +93,26 @@ namespace LewisVentas.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cash_register__1_ {
+            get {
+                object obj = ResourceManager.GetObject("cash-register (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cash_register__2_ {
+            get {
+                object obj = ResourceManager.GetObject("cash-register (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap clientes {
             get {
                 object obj = ResourceManager.GetObject("clientes", resourceCulture);
@@ -256,6 +276,16 @@ namespace LewisVentas.Properties {
         internal static System.Drawing.Bitmap new_file {
             get {
                 object obj = ResourceManager.GetObject("new-file", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap number_blocks {
+            get {
+                object obj = ResourceManager.GetObject("number-blocks", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

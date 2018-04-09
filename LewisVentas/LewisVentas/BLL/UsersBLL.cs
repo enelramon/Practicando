@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using LewisVentas.ENTIDADES;
 using LewisVentas.DAL;
 using System.Data.Entity;
+using System.Linq.Expressions;
 
 namespace LewisVentas.BLL
 {
@@ -80,7 +81,7 @@ namespace LewisVentas.BLL
 
         }
 
-        public static List<Users> listar()
+        public static List<Users> Listar()
         {
             List<Users> User = new List<Users>();
             Context context = new Context();
@@ -130,6 +131,27 @@ namespace LewisVentas.BLL
 
             }
             return estado;
+        }
+
+        public static List<Users> GetList(Expression<Func<Users, bool>> filter)
+        {
+            List<Users> lista = null;
+
+            try
+            {
+                Context context = new Context();
+                lista = context.Usuario.Where(filter).ToList();
+                
+            }
+            catch (Exception)
+            {
+                throw;
+
+            }
+
+           
+
+            return lista;
         }
     }
 }

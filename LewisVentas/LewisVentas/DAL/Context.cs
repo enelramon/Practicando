@@ -16,5 +16,11 @@ namespace LewisVentas.DAL
         }
 
         public DbSet<Users> Usuario { get; set; }
+        public DbSet<Category> Categoria { get; set;}
+        public DbSet<Personas> Persona { get; set; }
+        public DbSet<Productos> Producto { get; set;}
+        public DbSet<Telefonos> Telefono { get; set; }
+        public DbSet<Ventas> Venta { get; set; }
+        public DbSet<DetalleVentas> DetaleVenta{ get; set; }
     }
 }

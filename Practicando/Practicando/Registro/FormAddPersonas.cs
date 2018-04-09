@@ -50,7 +50,7 @@ namespace Practicando.Registro
             int rows = dataGridViewTelefonos.RowCount - 1;
             for (int i = 0; i < rows; i++)
             {
-               persona.TelefonosPersona.Add(new PersonasTelefonos(0,dataGridViewTelefonos.Rows[i].Cells[0].Value.ToString(), (int)dataGridViewTelefonos.Rows[i].Cells[1].Value,0));
+               persona.TelefonosPersona.Add(new PersonasTelefonos(0,dataGridViewTelefonos.Rows[i].Cells[0].Value.ToString(), (int)dataGridViewTelefonos.Rows[i].Cells[1].Value,3));
 
             }
 

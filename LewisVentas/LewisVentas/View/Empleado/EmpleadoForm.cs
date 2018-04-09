@@ -26,7 +26,7 @@ namespace LewisVentas.View.Empleado
 
         private void LlenaCampos()
         {
-            List<Users> usuarios = UsersBLL.listar();
+            List<Users> usuarios = UsersBLL.Listar();
             foreach (Users usuario in usuarios)
             {
                 dataGridViewEmpleado.Rows.Add(usuario.IdUsuario, usuario.Nombre,usuario.Nombre, usuario.Email, usuario.Tipo, usuario.Pass);
@@ -62,8 +62,8 @@ namespace LewisVentas.View.Empleado
 
         private void buttonNuevo_Click(object sender, EventArgs e)
         {
-            EditarForm editar = new EditarForm();
-            editar.ShowDialog();
+            EditarForm Guardar = new EditarForm();
+            Guardar.ShowDialog();
             dataGridViewEmpleado.Rows.Clear();
             LlenaCampos();
         }
@@ -101,6 +101,53 @@ namespace LewisVentas.View.Empleado
                 MessageBox.Show("Por favor selecione una fila!");
             }
 
+        }
+
+        private void buttonBuscar_Click(object sender, EventArgs e)
+        {
+            List<Users>  Users = new List<Users>();
+            string Datos = textBoxBuscar.Text;
+            switch (comboBoxFiltrar.SelectedIndex)
+            {   
+                case 0:
+                    Users = UsersBLL.GetList(i => i.Nombre == Datos);
+                    AddFiltrado(Users);
+                    break;
+                case 1:
+                    Users = UsersBLL.GetList(i => i.NombreUsuario == Datos);
+                    AddFiltrado(Users); 
+                    break;
+                case 2:
+                    Users = UsersBLL.GetList(i => i.Tipo == Datos);
+                    AddFiltrado(Users);
+                    break;
+
+
+                default:
+                    MessageBox.Show("Selecione un campo para filtrar");
+                    break;
+            }
+
+            if (textBoxBuscar.Text == string.Empty)
+            {
+                dataGridViewEmpleado.Rows.Clear();
+                LlenaCampos();
+            }
+        }
+
+        private void AddFiltrado(List<Users> Users) {
+            if (Users.Count() > 0) {
+                foreach (Users usuario in Users)
+                {
+                    dataGridViewEmpleado.Rows.Clear();
+                    dataGridViewEmpleado.Rows.Add(usuario.IdUsuario, usuario.Nombre, usuario.Nombre, usuario.Email, usuario.Tipo, usuario.Pass);
+
+                }
+            }
+            else
+            {
+                dataGridViewEmpleado.Rows.Clear();
+            }
         }
     }
 }

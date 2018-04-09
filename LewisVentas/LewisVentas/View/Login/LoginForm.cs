@@ -39,20 +39,21 @@ namespace LewisVentas.View.Login
 
         private void buttonAcceder_Click(object sender, EventArgs e)
         {
-            if (ValidarErrores() == true)
-            {
-                if (UsersBLL.Login(textBoxUsuario.Text, textBoxPass.Text) == true)
-                {
-                    LayoutForm Layout = new LayoutForm();
-                    Layout.Show();
-                }
-                else
-                {
-                    labelPass.Visible = false;
-                    labelUsuario.Visible = false;
-                    labelError.Visible = true;
-                }
-            }
+             if (ValidarErrores() == true)
+              {
+                  if (UsersBLL.Login(textBoxUsuario.Text, textBoxPass.Text) == true)
+                  {
+                      LayoutForm Layout = new LayoutForm();
+                      Layout.Show();
+                  }
+                  else
+                  {
+                      labelPass.Visible = false;
+                      labelUsuario.Visible = false;
+                      labelError.Visible = true;
+                  }
+              }
+          
         }
 
         private bool ValidarErrores()

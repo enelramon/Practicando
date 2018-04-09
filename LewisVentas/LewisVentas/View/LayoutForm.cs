@@ -9,8 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using LewisVentas.View.Empleado;
+using LewisVentas.View.Clientes;
+using LewisVentas.View.Articulos;
+using LewisVentas.View.Proveedores;
+using LewisVentas.View.Categorias;
+using LewisVentas.View.VentasForm;
 using LewisVentas.ENTIDADES;
 using LewisVentas.BLL;
+using LewisVentas.DAL;
 
 namespace LewisVentas.View
 {
@@ -28,7 +34,7 @@ namespace LewisVentas.View
 
         private void LayoutForm_Load(object sender, EventArgs e)
         {
-           // LlenaCampos(Program.Id);
+             LlenaCampos(Program.Id);
             PrivilegiosUsuarios();
         }
 
@@ -36,7 +42,10 @@ namespace LewisVentas.View
         {
             if (Program.TipoUsuario == "Vendedor")
             {
-             
+                buttonEmpleado.Visible = false;
+                buttonCompra.Visible = false;
+
+
             }
         }
 
@@ -83,7 +92,7 @@ namespace LewisVentas.View
         }
 
       
-        private void PonerFormEnPanel(object FormHijo)
+        public void PonerFormEnPanel(object FormHijo)
         {
             if (this.panelCenter.Controls.Count > 0)
                 this.panelCenter.Controls.RemoveAt(0);
@@ -102,16 +111,49 @@ namespace LewisVentas.View
         }
 
         private void LlenaCampos(int Id)
-        {
+        {/*
             Users User = UsersBLL.Buscar(Id);
             labelNombreUser.Text = User.Nombre;
             labelEmail.Text = User.Email;
-            labelTipo.Text = User.Tipo;
+            labelTipo.Text = User.Tipo;*/
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             PonerFormEnPanel(new EmpleadoForm());
+        }
+
+  
+
+        private void buttonClientes_Click(object sender, EventArgs e)
+        {
+            PonerFormEnPanel(new ClientesForm());
+        }
+
+        private void buttonProveedor_Click(object sender, EventArgs e)
+        {
+            PonerFormEnPanel(new ProveedoresForm());
+
+        }
+
+        private void buttonCategorias_Click(object sender, EventArgs e)
+        {
+            PonerFormEnPanel(new CategoriasForm());
+        }
+
+        private void buttonProductos_Click(object sender, EventArgs e)
+        {
+            PonerFormEnPanel(new ProductosForm());
+        }
+
+        private void buttonVentas_Click(object sender, EventArgs e)
+        {
+           PonerFormEnPanel(new CreateVentasForm());
+        }
+
+        private void panelCenter_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

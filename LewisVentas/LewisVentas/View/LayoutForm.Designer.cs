@@ -40,12 +40,13 @@
             this.pictureBoxMinimixar = new System.Windows.Forms.PictureBox();
             this.pictureBoxCerrar = new System.Windows.Forms.PictureBox();
             this.pictureBoxSlider = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonCategorias = new System.Windows.Forms.Button();
+            this.buttonClientes = new System.Windows.Forms.Button();
+            this.buttonEmpleado = new System.Windows.Forms.Button();
+            this.buttonVentas = new System.Windows.Forms.Button();
+            this.buttonProveedor = new System.Windows.Forms.Button();
+            this.buttonCompra = new System.Windows.Forms.Button();
+            this.buttonProductos = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenuVertical.SuspendLayout();
@@ -63,12 +64,13 @@
             // panelMenuVertical
             // 
             this.panelMenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
-            this.panelMenuVertical.Controls.Add(this.button6);
-            this.panelMenuVertical.Controls.Add(this.button5);
-            this.panelMenuVertical.Controls.Add(this.button4);
-            this.panelMenuVertical.Controls.Add(this.button3);
-            this.panelMenuVertical.Controls.Add(this.button2);
-            this.panelMenuVertical.Controls.Add(this.button1);
+            this.panelMenuVertical.Controls.Add(this.buttonCategorias);
+            this.panelMenuVertical.Controls.Add(this.buttonClientes);
+            this.panelMenuVertical.Controls.Add(this.buttonEmpleado);
+            this.panelMenuVertical.Controls.Add(this.buttonVentas);
+            this.panelMenuVertical.Controls.Add(this.buttonProveedor);
+            this.panelMenuVertical.Controls.Add(this.buttonCompra);
+            this.panelMenuVertical.Controls.Add(this.buttonProductos);
             this.panelMenuVertical.Controls.Add(this.labelEmail);
             this.panelMenuVertical.Controls.Add(this.labelNombreUser);
             this.panelMenuVertical.Controls.Add(this.labelTipo);
@@ -147,6 +149,7 @@
             this.panelCenter.Padding = new System.Windows.Forms.Padding(30, 45, 30, 25);
             this.panelCenter.Size = new System.Drawing.Size(1050, 600);
             this.panelCenter.TabIndex = 2;
+            this.panelCenter.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCenter_Paint);
             // 
             // pictureBoxMaximixar
             // 
@@ -209,102 +212,123 @@
             this.pictureBoxSlider.TabStop = false;
             this.pictureBoxSlider.Click += new System.EventHandler(this.pictureBoxSlider_Click);
             // 
-            // button6
+            // buttonCategorias
             // 
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = global::LewisVentas.Properties.Resources.personal_card_outlined_tool;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(1, 318);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(250, 40);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Empleados";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.buttonCategorias.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
+            this.buttonCategorias.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
+            this.buttonCategorias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCategorias.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCategorias.ForeColor = System.Drawing.Color.White;
+            this.buttonCategorias.Image = global::LewisVentas.Properties.Resources.number_blocks;
+            this.buttonCategorias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonCategorias.Location = new System.Drawing.Point(0, 134);
+            this.buttonCategorias.Name = "buttonCategorias";
+            this.buttonCategorias.Size = new System.Drawing.Size(250, 40);
+            this.buttonCategorias.TabIndex = 13;
+            this.buttonCategorias.Text = "Categorias";
+            this.buttonCategorias.UseVisualStyleBackColor = true;
+            this.buttonCategorias.Click += new System.EventHandler(this.buttonCategorias_Click);
             // 
-            // button5
+            // buttonClientes
             // 
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = global::LewisVentas.Properties.Resources.shopping_cart1;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(1, 134);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(250, 40);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "Ventas";
-            this.button5.UseVisualStyleBackColor = true;
+            this.buttonClientes.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
+            this.buttonClientes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
+            this.buttonClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonClientes.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClientes.ForeColor = System.Drawing.Color.White;
+            this.buttonClientes.Image = global::LewisVentas.Properties.Resources.group;
+            this.buttonClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonClientes.Location = new System.Drawing.Point(-1, 226);
+            this.buttonClientes.Name = "buttonClientes";
+            this.buttonClientes.Size = new System.Drawing.Size(250, 40);
+            this.buttonClientes.TabIndex = 12;
+            this.buttonClientes.Text = "Clientes";
+            this.buttonClientes.UseVisualStyleBackColor = true;
+            this.buttonClientes.Click += new System.EventHandler(this.buttonClientes_Click);
             // 
-            // button4
+            // buttonEmpleado
             // 
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = global::LewisVentas.Properties.Resources.group;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(2, 180);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(250, 40);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Clientes";
-            this.button4.UseVisualStyleBackColor = true;
+            this.buttonEmpleado.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
+            this.buttonEmpleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
+            this.buttonEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEmpleado.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEmpleado.ForeColor = System.Drawing.Color.White;
+            this.buttonEmpleado.Image = global::LewisVentas.Properties.Resources.personal_card_outlined_tool;
+            this.buttonEmpleado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEmpleado.Location = new System.Drawing.Point(-3, 364);
+            this.buttonEmpleado.Name = "buttonEmpleado";
+            this.buttonEmpleado.Size = new System.Drawing.Size(250, 40);
+            this.buttonEmpleado.TabIndex = 11;
+            this.buttonEmpleado.Text = "Empleados";
+            this.buttonEmpleado.UseVisualStyleBackColor = true;
+            this.buttonEmpleado.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button3
+            // buttonVentas
             // 
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = global::LewisVentas.Properties.Resources.truck__1_;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(3, 226);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(250, 40);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Proveedores";
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttonVentas.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
+            this.buttonVentas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
+            this.buttonVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonVentas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonVentas.ForeColor = System.Drawing.Color.White;
+            this.buttonVentas.Image = global::LewisVentas.Properties.Resources.shopping_cart1;
+            this.buttonVentas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonVentas.Location = new System.Drawing.Point(-3, 180);
+            this.buttonVentas.Name = "buttonVentas";
+            this.buttonVentas.Size = new System.Drawing.Size(250, 40);
+            this.buttonVentas.TabIndex = 10;
+            this.buttonVentas.Text = "Ventas";
+            this.buttonVentas.UseVisualStyleBackColor = true;
+            this.buttonVentas.Click += new System.EventHandler(this.buttonVentas_Click);
             // 
-            // button2
+            // buttonProveedor
             // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::LewisVentas.Properties.Resources.wallet;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(1, 272);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(250, 40);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Compras";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonProveedor.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
+            this.buttonProveedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
+            this.buttonProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonProveedor.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonProveedor.ForeColor = System.Drawing.Color.White;
+            this.buttonProveedor.Image = global::LewisVentas.Properties.Resources.truck__1_;
+            this.buttonProveedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonProveedor.Location = new System.Drawing.Point(-1, 272);
+            this.buttonProveedor.Name = "buttonProveedor";
+            this.buttonProveedor.Size = new System.Drawing.Size(250, 40);
+            this.buttonProveedor.TabIndex = 8;
+            this.buttonProveedor.Text = "Proveedores";
+            this.buttonProveedor.UseVisualStyleBackColor = true;
+            this.buttonProveedor.Click += new System.EventHandler(this.buttonProveedor_Click);
             // 
-            // button1
+            // buttonCompra
             // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::LewisVentas.Properties.Resources.barcode;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(2, 88);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(250, 40);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Productos";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonCompra.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
+            this.buttonCompra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
+            this.buttonCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCompra.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCompra.ForeColor = System.Drawing.Color.White;
+            this.buttonCompra.Image = global::LewisVentas.Properties.Resources.wallet;
+            this.buttonCompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonCompra.Location = new System.Drawing.Point(-3, 318);
+            this.buttonCompra.Name = "buttonCompra";
+            this.buttonCompra.Size = new System.Drawing.Size(250, 40);
+            this.buttonCompra.TabIndex = 7;
+            this.buttonCompra.Text = "Compras";
+            this.buttonCompra.UseVisualStyleBackColor = true;
+            // 
+            // buttonProductos
+            // 
+            this.buttonProductos.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(89)))), ((int)(((byte)(112)))));
+            this.buttonProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(49)))), ((int)(((byte)(63)))));
+            this.buttonProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonProductos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonProductos.ForeColor = System.Drawing.Color.White;
+            this.buttonProductos.Image = global::LewisVentas.Properties.Resources.barcode;
+            this.buttonProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonProductos.Location = new System.Drawing.Point(-1, 88);
+            this.buttonProductos.Name = "buttonProductos";
+            this.buttonProductos.Size = new System.Drawing.Size(250, 40);
+            this.buttonProductos.TabIndex = 6;
+            this.buttonProductos.Text = "Productos";
+            this.buttonProductos.UseVisualStyleBackColor = true;
+            this.buttonProductos.Click += new System.EventHandler(this.buttonProductos_Click);
             // 
             // pictureBox2
             // 
@@ -369,11 +393,12 @@
         private System.Windows.Forms.Label labelEmail;
         private System.Windows.Forms.Label labelNombreUser;
         private System.Windows.Forms.Label labelTipo;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonProductos;
+        private System.Windows.Forms.Button buttonEmpleado;
+        private System.Windows.Forms.Button buttonVentas;
+        private System.Windows.Forms.Button buttonProveedor;
+        private System.Windows.Forms.Button buttonCompra;
+        private System.Windows.Forms.Button buttonClientes;
+        private System.Windows.Forms.Button buttonCategorias;
     }
 }
